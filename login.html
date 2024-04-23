@@ -2,60 +2,62 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="path/to/font-awesome/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="your-integrity-hash" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha384-Dziy84bP5rZk3hhz3K7Kzwn6WBpSVLHRBNF+SRuonj0Dz+HvS0sfj5I9M93i0I+x" crossorigin="anonymous">
+
+    <title>login form</title>
 </head>
 
 <body>
-    <div class="signin">
-
-        <div class="content">
-
-            <h2>Sign In</h2>
-
-            <div class="form">
-
-                <div class="inputBox">
-
-                    <input type="text" required> <i>Username</i>
-
+    <div class="card mb-3 container login" style="max-width: 800px;">
+        <div class="row g-0">
+            <div class="col-md-8">
+                <div class="form-floating mb-3">
+                    <h1 style="font-weight: bold;">Login</h1>
+                    <p>Do you have an account?
+                        <link>create account</link>
+                    </p>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">#</span>
+                        <input type="text" class="form-control" placeholder="Password" aria-label="Password"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="control">
+                        <span class="material-symbols-outlined">
+                            check_box_outline_blank
+                        </span>
+                        <p>remember me</p>
+                        <p id="forgot-password">forgot Password</p>
+                    </div>
+                    <button class="btn btn-primary loginbutton">login</button>
                 </div>
 
-                <div class="inputBox">
-
-                    <input type="password" required> <i>Password</i>
-
+                <div class="media">
+                    <p>or login with</p>
+                    <a href="https://www.facebook.com/YourPage" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/YourPage" target="_blank" class="fa fa-twitter"></a>
                 </div>
-
-                <div class="links"> <a href="#">Forgot Password</a> <a href="#">Signup</a>
-
-                </div>
-
-                <div class="inputBox">
-
-                    <input type="submit" value="Login">
-
-                </div>
-
             </div>
-
+            <div class="decoration"></div>
         </div>
-
-    </div>
-
-    </section> <!-- partial -->
-    <div class="loginform">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-weixin"></i>
-
-    </div>
 </body>
 
 </html>
