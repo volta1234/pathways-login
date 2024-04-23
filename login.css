@@ -1,18 +1,42 @@
 .login {
-   height: auto;
-   margin-top: 100px;
-   border-radius: 0px !important;
-   padding: 20px;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 0px !important;
+    padding: 20px;
 }
+
 .control {
     font-size: 14px;
     font-weight: 200;
     display: flex;
 }
+
 #forgot-password {
     float: right;
     margin-left: 300px;
 }
+
 .loginbutton {
     float: right;
+}
+
+.decoration {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    float: left;
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-right: -20px;
+    border-bottom: 350px solid transparent;
+    border-right: 273px solid rgb(38, 26, 125);
 }
